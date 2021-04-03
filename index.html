@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<!-- jQuery library -->
+<link
+      href="staticfiles/css/main.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  <head>
+    <title>Isabel Bolger</title>
+    
+    
+  </head>
+  <body>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card card-body" style="text-align: center">
+            <img id="profile" src="staticfiles/images/Isabel.jpg" />
+            <hr />
+            <h4>Hi, I'm Isabel!</h4>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="card card-body">
+            <p>
+              Welcome to my page! I am a recent graduate of Northeastern
+              University in Boston, MA. I have experience with web and mobile
+              developement, as well as a bit of product management. I'll be
+              starting my first, full-time job at Microsoft this summer, and
+              will most likely be working on an Office product. I have a strong
+              passion for sharing my knowledge, mentoring, and bringing other
+              young, aspiring female coders into the tech industry.
+            </p>
+            <p>
+              When I'm not coding you can find me skiing, jamming out on my
+              guitar, baking, and hiking.
+            </p>
+
+            <ul class="social-links">
+              <a href="https://www.github.com/isa3bel"
+                ><li>
+                  <img
+                    class="social"
+                    src="staticfiles/images/github.png"
+                  /></li
+              ></a>
+              <a href="https://www.facebook.com/isabel-bolger"
+                ><li>
+                  <img
+                    class="social"
+                    src="staticfiles/images/facebook.png"
+                  /></li
+              ></a>
+              <a href="https://www.linkedin.com/in/isabel-b"
+                ><li>
+                  <img
+                    class="social"
+                    src="staticfiles/images/instagram.png"
+                  /></li
+              ></a>
+              <button type="button" class="btn btn-link"><a href="https://drive.google.com/file/d/1SevM-K9c3ZwOeT1Ri5eJulRgnImhBCOz/view?usp=sharing">
+                Resume
+              </a></button>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card card-body">
+            <h1  style="text-align: center">Experience</h1>
+            <ul>
+              <div>
+                <li class="job title">Incoming SWE - Microsoft</li>
+                <p>Starting Summer 2021</p>
+              </div>
+              <div>
+                <li class="job title">
+                  Teaching Assistant - Northeastern University
+                </li>
+                <p>Jan '21 - Apr '21</p>
+              </div>
+              <div>
+                <li class="job title">Web Engineer Intern - Microsoft</li>
+                <p>May '20 - Aug '20</p>
+              </div>
+              <div>
+                <li class="job title">
+                  Mobile Engineer Intern - Skillz Inc.
+                </li>
+                <p>Sep '19 - Dec '19</p>
+              </div>
+              <div>
+                <li class="job title">Mac OS Engineer Intern - Microsoft</li>
+                <p>May '19 - Aug '19</p>
+              </div>
+              <div>
+                <li class="job title">Explore Intern (SWE/PM) - Microsoft</li>
+                <p>May '18 - Aug '18</p>
+              </div>
+              <div>
+                <li class="job title">High School Intern (SWE) - Microsoft</li>
+                <p>Jun '17 - Aug '17</p>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card card-body" style="text-align: center">
+            <h1>Projects</h1>
+            <div class="bd-example">
+              <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img style="height:500px" src="staticfiles/images/marble.jpg" class="d-block w-100 pr" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h2>Marble Solitaire</h2>
+                      <h3>(Java)</h3>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img style="height:500px" src="staticfiles/images/maze.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h2 id="mazeGame">Maze Game</h2>
+                      <h3 id="mazeGameJava">(Java)</h3>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img style="height:500px" src="staticfiles/images/brick.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h2 id="brickGame">Brick Game</h2>
+                      <h3 id="brickGameRacket">(Racket)</h3>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img style="height:500px" src="staticfiles/images/flood.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h2 id="brickGame">Flood-it! Game</h2>
+                      <h3 id="brickGameRacket">(Java)</h3>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img style="height:500px" src="staticfiles/images/weather.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h2>Weather Web App</h2>
+                      <h3>(JavaScript, HTML/CSS)</h3>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img style="height:500px" src="staticfiles/images/movie.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h2 id="brickGame">Movie DB Web App</h2>
+                      <h3 id="brickGameRacket">(ReactJS)</h3>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card card-body" style="text-align: center">
+            <h1>Art</h1>
+            <img src="staticfiles/images/art1.jpg" class="d-block w-100" alt="...">
+            <img src="staticfiles/images/art2.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card card-body" style="text-align: center">
+            <h1>Animation</h1>
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/NVE326slrIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br>
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/gJ_PdnytTGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br>
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/EWOCxqThoIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card card-body" style="text-align: center">
+            <h1>Features</h1>
+            <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="https://medium.com/intheirshoes/stem-focus-isabel-bolger-microsoft-bc91e3f7338f"><img src="staticfiles/images/theirshoes.png" width="1000" height="300"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="https://stempowher.com/articles/isabelbolger"><img src="staticfiles/images/stempowher.png" width="1000" height="300"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="https://www.khoury.northeastern.edu/empowering-women-in-tech-ccis-students-attend-the-2018-grace-hopper-conference/"><img src="staticfiles/images/ccis.png" width="1000" height="300"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="https://www.youtube.com/watch?v=31bahho_fMQ"><img src="staticfiles/images/techopps.png" width="1000" height="300"></a>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <p style="text-align: center;">© Isabel Bolger 2021</p>
+      <script language="JavaScript" type="text/javascript">
+        $('.carousel').carousel()
+      </script>
+    </div>
+  </body>
+</html>
